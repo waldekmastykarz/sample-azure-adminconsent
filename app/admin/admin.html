@@ -1,0 +1,8 @@
+{{::vm.title}}
+<div>
+	<button ng-click="vm.signupOrganization()">Signup organization</button>
+</div>
+<div ng-show="vm.organizationSubscribed">
+	Organization successfully subscribed<br />
+	<a href="#/">Home</a>
+</div>
